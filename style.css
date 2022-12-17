@@ -15,10 +15,12 @@ h1 {
 }
 
 .container ul {
-    text-align:left;
-    list-style:inside;
+    text-align:center;
+    list-style:none;
 }
 
-.container ul{
+.container li {
     display: inline-block;
 }
+
+

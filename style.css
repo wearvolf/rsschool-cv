@@ -2,16 +2,22 @@ h1 {
     color: aquamarine;
 }
 
+body {
+    background-color: #596e8f;
+    text-align: center;
+    color: white;
+}
+
 
 .container {
     width: 100%;
 }
 
 .container ul {
-    text-align: center;
-    list-style: none;
+    text-align:left;
+    list-style:inside;
 }
 
-.container ol{
+.container ul{
     display: inline-block;
 }

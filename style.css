@@ -16,7 +16,11 @@ h1 {
 
 .container ul {
     text-align:center;
-    list-style:none;
+    list-style:inside;
+}
+
+.container il{
+    display:inline-block;
 }
 
 html, body{margin:0;padding:0;}
@@ -27,8 +31,7 @@ max-width:90%;
 }
 .inline div{
 display:inline-block;
-display: -moz-inline-stack;
-vertical-align:top; /* Выравниваем их сверху */
+vertical-align:top;
 font-size:18px;
 
 zoom: 1;

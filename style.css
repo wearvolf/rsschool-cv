@@ -19,5 +19,36 @@ h1 {
     list-style:none;
 }
 
+html, body{margin:0;padding:0;}
+.main {
+margin:0 auto;
+width:100%;
+max-width:90%;
+}
+.inline div{
+display:inline-block;
+display: -moz-inline-stack;
+vertical-align:top; /* Выравниваем их сверху */
+font-size:18px;
 
+zoom: 1;
+*display: inline;
+
+}
+div.inline{font-size:0;}
+.left-block{
+background:rgb(81, 131, 133);
+width:30%;
+height:30px;
+}
+.content{
+background:rgb(81, 120, 133);
+width:40%;
+height:30px;
+}
+.right-block{
+background:rgb(81, 131, 133);
+width:30%;
+height:30px;
+}
 
